@@ -38,7 +38,7 @@
   align-items: center;
   text-align: center;
   gap: 20px;
-  font-family: var(--PressStart2P, Arial, sans-serif);
+  font-family: var(--PressStart2P, Impact, Haettenschweiler, fantasy);
   color: var(--main-color, #000);
   background-color: var(--bg-color, #fff);
   border: 2px solid var(--main-color, #000);
@@ -51,11 +51,11 @@
   font-size: clamp(3.0625rem, 1.9092rem + 4.9231vw, 4.063rem);
   line-height: 100%;
   text-transform: uppercase;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
 }
 
 .header__title {
-  font-family: var(--PressStart2P, Arial, sans-serif);
+  font-family: var(--PressStart2P, Impact, Haettenschweiler, fantasy);
   font-weight: var(--font-weight-button, 400);
   font-size: clamp(0.875rem, 0.2254rem + 2.7717vw, 1.438rem);
   line-height: 100%;
@@ -82,7 +82,7 @@
   padding: 10px 4px;
   font-family: var(--Inter, Arial, sans-serif);
   font-variation-settings: "wght" var(--font-weight-accent, 700);
-  font-style: var(--main-color, #000);
+  color: var(--main-color, #000);
   font-size: 18px;
   line-height: 100%;
   vertical-align: middle;
@@ -130,7 +130,7 @@
   right: 27px;
   z-index: 1;
   opacity: 0.5;
-  font-family: var(--PressStart2P, Arial, sans-serif);
+  font-family: var(--PressStart2P, Impact, Haettenschweiler, fantasy);
   color: var(--main-color, #000);
   font-size: 14px;
   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
@@ -161,7 +161,7 @@
   font-size: 18px;
   line-height: 21px;
   color: var(--main-color);
-  font-variation-settings: "wght" var(--font-weight-main, 400) "slnt" 0;
+  font-variation-settings: "wght" var(--font-weight-main, 400), "slnt" 0;
 }
 
 .button-container {
@@ -307,7 +307,7 @@
 }
 
 .button__text {
-  font-family: var(--PressStart2P, Arial, sans-serif);
+  font-family: var(--PressStart2P, Impact, Haettenschweiler, fantasy);
   font-variation-settings: "wght" var(--font-weight-button, 400);
   font-size: 14px;
   line-height: 90%;
@@ -355,14 +355,11 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  position: fixed;
-  inset: 0;
   width: var(--width-dialog);
   border: 2px solid var(--main-color, #000);
   box-sizing: border-box;
   font-weight: var(--font-weight-button, 400);
   text-transform: uppercase;
-  overflow: hidden;
 }
 
 .save_dialog[open]::backdrop {
@@ -377,7 +374,7 @@
 
 .button__text_save {
   padding: 12.5px 132.5px;
-  font-family: var(--PressStart2P, Arial, sans-serif);
+  font-family: var(--PressStart2P, Impact, Haettenschweiler, fantasy);
   font-weight: var(--font-weight-button, 400);
   font-size: 14px;
   line-height: 90%;

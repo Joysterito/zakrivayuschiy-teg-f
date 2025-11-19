@@ -564,27 +564,25 @@
         <span class="button__text">Сохранить на память</span>
       </button>
       <dialog id="save-dialog" class="save_dialog">
-        <div class="save_dialog__window">
-          <svg
-            class="floppy"
-            xmlns="http://www.w3.org/2000/svg"
-            width="39"
-            height="39"
-            viewBox="0 0 39 39"
-          >
-            <use href="./svg/floppy.svg#floppy"></use>
-          </svg>
-          <p class="button__text button__text_dialog">
-            Вставьте дискету, чтобы продолжить
-          </p>
-        </div>
-        <button
-          class="button button__ok"
-          onclick="window['save-dialog'].close()"
-          type="button"
-        >
-          <span class="button__text button__text_save">ок</span>
-        </button>
+        <form method="dialog">
+          <div class="save_dialog__window">
+            <svg
+              class="floppy"
+              xmlns="http://www.w3.org/2000/svg"
+              width="39"
+              height="39"
+              viewBox="0 0 39 39"
+            >
+              <use href="./svg/floppy.svg#floppy"></use>
+            </svg>
+            <p class="button__text button__text_dialog">
+              Вставьте дискету, чтобы продолжить
+            </p>
+          </div>
+          <button class="button button__ok" type="submit">
+            <span class="button__text button__text_save">Ок</span>
+          </button>
+        </form>
       </dialog>
     </main>
     <script src="./scripts/like.js"></script>
