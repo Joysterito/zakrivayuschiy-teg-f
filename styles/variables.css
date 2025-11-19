@@ -29,4 +29,6 @@
   --main-color: #000;
   --text-stroke-color: 1px #fff;
   --width-dialog: clamp(21.313rem, 21.0489rem + 1.1268vw, 22.063rem);
+  --contour-color: #000;
+  --animation-fill-color: #FF0000;
 }
