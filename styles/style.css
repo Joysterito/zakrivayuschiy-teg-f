@@ -91,6 +91,7 @@
   border-top: 2px solid var(--main-color, #000);
   width: 100%;
   aspect-ratio: 1/1;
+  position: relative;
 }
 
 .card__image-img {
@@ -130,7 +131,7 @@
 
 .card__logo {
   position: absolute;
-  top: 53px;
+  top: 25px;
   right: 23px;
   z-index: 1;
   opacity: 0.5;
@@ -408,5 +409,10 @@
 
   .save_dialog[open] {
     padding: 30px 40px;
+  }
+
+  .card__logo {
+    top: 29px;
+    right: 27px;
   }
 }
