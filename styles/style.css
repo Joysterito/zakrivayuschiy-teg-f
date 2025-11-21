@@ -130,8 +130,8 @@
 
 .card__logo {
   position: absolute;
-  top: 76px;
-  right: 27px;
+  top: 53px;
+  right: 23px;
   z-index: 1;
   opacity: 0.5;
   font-family: var(--PressStart2P, Impact, Haettenschweiler, fantasy);
@@ -394,7 +394,7 @@
   .page {
     gap: 100px;
   }
-  
+
   .save_button {
     flex-direction: column;
     width: 306px;
